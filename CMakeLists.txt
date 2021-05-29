@@ -189,7 +189,7 @@ catkin_package(
 #   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 # )
 
-install(DIRECTORY launch configuration_files param urdf
+install(DIRECTORY launch configuration_files urdf
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
